@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Associate Professor of Educational Technology",
+    "org": "Adelphi University",
+    "link": "https://www.adelphi.edu",
+    "start": 2010,
+    "end": -1,
+    "where": "New York",
+    "desc": "Founder of the graduate program in edcuational technology at Adelphi University, where I teach courses in learning sciences, computer science, digital media studies, and multimedia design. Current research projects look at the politics of digital artifcats, especially learning technologies."
+  },
+  {
+    "title": "Graduate Research Assistant",
+    "org": "Columbia University",
+    "link": "https://www.columbia.edu",
+    "start": 2008,
+    "end": 2010,
+    "where": "New York",
+    "desc": "Designed research measures, gathered field data, employed quantiative and qualitative approaches to analyzes data, and provided design and technical support to faculty-led research projects."
+  },
+  {
+    "title": "Freelance Software Engineer",
+    "org": "Self",
+    "link": "https://matt.curinga.com",
+    "start": 2008,
+    "end": -1,
+    "where": "Anywhere",
+    "desc": "Software engineer with over 10 years of industry experience, specializes in working as lead developer/architect and technical team leader for start-ups and non-profits. Current interests include developing innovative software for learning, including just-in-time learning, p2p systems, and augmented reality."
+  },
+  {
+    "title": "Lead Software Engineer",
+    "org": "IAG Research/Nielsen Media",
+    "link": "https://matt.curinga.com",
+    "start": 2004,
+    "end": 2008,
+    "where": "New York",
+    "desc": "Software design for 15+ member engineering team. Helped IAG Research grow from early stage start-up to acquisition by Nielsen Media. Lead engineer for data science collection and analysis products for the media industry."
+  }
+]

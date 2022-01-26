@@ -1,0 +1,20 @@
+[
+  {
+    "school": "Columbia University",
+    "location": "New York City",
+    "degree": "EdD Instructional Technology & Media",
+    "year": 2010
+  },
+  {
+    "school": "Columbia University",
+    "location": "New York City",
+    "degree": "MA Computing & Education",
+    "year": 1999
+  },
+  {
+    "school": "Colby College",
+    "location": "Waterville, Maine",
+    "degree": "BA English",
+    "year": 1993
+  }
+]
