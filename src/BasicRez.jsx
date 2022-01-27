@@ -1,12 +1,24 @@
+/**
+ * This basic  version of the resume incldues all of the components
+ * in a single javascript file. It imports the data
+ * for the jobs from the .json file and uses the `Job`
+ * function (insdie of `Experience`) to loop through them.
+ * The content for the education and skills section are
+ * "hardcoded" as JSX/HTML inside of their functions.
+*/
+
 import React from 'react';
 import work from "./data/work.json";
+
 
 
 function App() {
   return (
     <div className="App container">
       <Header />
-      <Resume work={work} />
+      <Education />
+      <Experience work={work} />
+      <Skills />
     </div>
   );
 }
@@ -25,17 +37,6 @@ function Header(props) {
   );
 }
 
-function Resume(props) {
-  return (
-    <main>
-      <Experience work={props.work} />
-      <Skills />
-      <Education />
-    </main>
-  );
-}
-
-
 function Experience(props) {
 
   function Job(j, i) {
@@ -48,8 +49,8 @@ function Experience(props) {
 
     return (
       <div key={i}>
-        <h5>{j.title} <small>{j.start} - {end}</small></h5>
-        <h6><a href={j.link}>{j.org}, {j.where}</a></h6>
+        <h5>{j.title} {j.start}-{end}</h5>
+        <a href={j.link}>{j.org}, {j.where}</a>
         <p>{j.desc}</p>
       </div>
     )
@@ -68,11 +69,31 @@ function Experience(props) {
 }
 
 function Education(props) {
-  return null;
+  return (
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><b>EdD:</b> Instructional Tecnology &amp; Media. Columbia University.</li>
+        <li><b>MA:</b> Computing &amp; Education. Columbia University.</li>
+        <li><b>BA:</b> English. Colby College.</li>
+      </ul>
+    </section>
+  )
 }
 
 function Skills(props) {
-  return null;
+  return (
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Javascript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>English</li>
+        <li>Spanish</li>
+      </ul>
+    </section>
+  )
 }
 
 export default App;

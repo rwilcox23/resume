@@ -13,10 +13,11 @@ Installing this project
 ### Install and start the project
 1. fork the starter project: go to <https://github.com/mcuringa/resume/> and click "fork"
 2. open your git client and clone the repository from your github account
-3. using your computers terminal, navigate to the project home (the place where you cloned the repo)
+3. using your computer's terminal/console , navigate to the project home (the place where you cloned the repo)
 4. run `npm update` to install all of the needed javascript packages
 5. run `npm start` -- this should start the local development webserve and launch your browser
-5. you should see example site here <http://localhost:3000>
+6. you should see example site here <http://localhost:3000>
+   which should match the public site at <>
 
 
 
