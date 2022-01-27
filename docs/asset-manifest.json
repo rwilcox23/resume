@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.49146c4d.css",
-    "main.js": "/static/js/main.7db9dfee.js",
-    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
-    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
-    "static/media/mxc-profile-sq.jpg": "/static/media/mxc-profile-sq.57181ff9d80a261dc02a.jpg",
-    "index.html": "/index.html",
-    "main.49146c4d.css.map": "/static/css/main.49146c4d.css.map",
-    "main.7db9dfee.js.map": "/static/js/main.7db9dfee.js.map"
+    "main.css": "https://github.com/mcuringa/resume/static/css/main.c9f9f926.css",
+    "main.js": "https://github.com/mcuringa/resume/static/js/main.86152d2d.js",
+    "static/media/bootstrap-icons.woff?": "https://github.com/mcuringa/resume/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
+    "static/media/bootstrap-icons.woff2?": "https://github.com/mcuringa/resume/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
+    "static/media/mxc-profile-sq.jpg": "https://github.com/mcuringa/resume/static/media/mxc-profile-sq.57181ff9d80a261dc02a.jpg",
+    "index.html": "https://github.com/mcuringa/resume/index.html",
+    "main.c9f9f926.css.map": "https://github.com/mcuringa/resume/static/css/main.c9f9f926.css.map",
+    "main.86152d2d.js.map": "https://github.com/mcuringa/resume/static/js/main.86152d2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.49146c4d.css",
-    "static/js/main.7db9dfee.js"
+    "static/css/main.c9f9f926.css",
+    "static/js/main.86152d2d.js"
   ]
 }
