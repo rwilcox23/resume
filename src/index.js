@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-document.title ="Matthew X. Curinga :: Resume";
+document.title ="Robert J. Wilcox :: Resume";
 
 ReactDOM.render(
   <React.StrictMode>

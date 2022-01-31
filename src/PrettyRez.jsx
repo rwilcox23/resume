@@ -44,7 +44,7 @@ function Rez() {
 function Header(props) {
   return (
     <header className="PortfolioHeader">
-      <h5>Matthew X. Curinga</h5>
+      <h5>Robert J. Wilcox</h5>
       <Bio />
     </header>
   );

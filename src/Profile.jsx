@@ -5,8 +5,8 @@ function Contact(props) {
   return (
     <section className="text-center mb-2 semiTrans p-3 rounded">
       <div>
-        <a href="https://matt.curinga.com"
-          title="go to matt's site">https://matt.curinga.com</a>
+        <a href="https://robertwilcox.com"
+          title="go to Rob's site">https://robertwilcox.com</a>
       </div>
       <div><a href="mailto:robertwilcox@mail.adelphi.edu">robertwilcox@mail.adelphi.edu</a></div>
     </section>
