@@ -13,8 +13,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 // swap these lines to change the resume style
-import Rez from "./PrettyRez.jsx"
-// import Rez from "./BasicRez.jsx"
+//import Rez from "./PrettyRez.jsx"
+import Rez from "./BasicRez.jsx"
 
 function App() {
   return (

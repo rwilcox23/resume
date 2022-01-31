@@ -26,12 +26,12 @@ function App() {
 function Header(props) {
   return (
     <header>
-      <h1>Matthew X. Curinga</h1>
+      <h1>Robert J. Wilcox</h1>
       <h6>
-        <a href="https://matt.curinga.com"
-           title="go to matt's site">https://matt.curinga.com</a>
+        <a href="https://robertwilcox.com"
+           title="go to Robert's site">https://robertwilcox.com</a>
       </h6>
-      <h6><a href="mailto:mcuringa@adelphi.edu">mcuringa@adelphi.edu</a></h6>
+      <h6><a href="mailto:robertwilcox@mail.adelphi.edu">robertwilcox@mail.adelphi.edu</a></h6>
       <hr />
     </header>
   );
@@ -73,9 +73,8 @@ function Education(props) {
     <section>
       <h2>Education</h2>
       <ul>
-        <li><b>EdD:</b> Instructional Tecnology &amp; Media. Columbia University.</li>
-        <li><b>MA:</b> Computing &amp; Education. Columbia University.</li>
-        <li><b>BA:</b> English. Colby College.</li>
+        <li><b>MA:</b> Educational Technology. Adelphi University.</li>
+        <li><b>BA:</b> Mathematics. St. Josephs College.</li>
       </ul>
     </section>
   )
