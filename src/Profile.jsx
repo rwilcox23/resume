@@ -28,11 +28,10 @@ function Bio(props) {
   return (
     <section className="Bio">
       <p className="text-justify mb-3">
-        I'm an experienced software developer and dedicated researcher of
-        digital media. I'm especially intersted in the politics of software
-        and software culture. I'm currently working on projects related to
-        informal, peer, and self-learning; computer science education; and
-        augmented reality.
+        I have 13 years of experience working in a high school math classroom setting.
+        I have challenged myself to learn and become well-versed in multiple curricula and have taught almost every high school math course offered by most schools.
+        I am interested in and consider myself to be proficient in "all things tech".
+        I'm currently working on a Masters Degree in Educational Technology, which ties together some old and new passions - mathematics and education with computer programming, coding, and more.
       </p>
     </section>
   );
