@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from "./res/mxc-profile-sq.jpg";
+import profileImg from "./res/robertwilcox.jpeg";
 
 function Contact(props) {
   return (
@@ -8,7 +8,7 @@ function Contact(props) {
         <a href="https://matt.curinga.com"
           title="go to matt's site">https://matt.curinga.com</a>
       </div>
-      <div><a href="mailto:mcuringa@adelphi.edu">mcuringa@adelphi.edu</a></div>
+      <div><a href="mailto:robertwilcox@mail.adelphi.edu">robertwilcox@mail.adelphi.edu</a></div>
     </section>
   )
 }
@@ -18,7 +18,7 @@ function ProfileImg(props) {
 
   return (
     <img className="mx-auto d-md-block d-sm-none mb-3 img-fluid" src={profileImg}
-      alt="headshot of matt" />
+      alt="headshot of Rob" />
   )
 
 }
