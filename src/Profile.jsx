@@ -27,7 +27,7 @@ function ProfileImg(props) {
 function Bio(props) {
   return (
     <section className="Bio">
-      <p className="text-justify mb-4">
+      <p className="text-justify mb-4 px-2">
         I have 13 years of experience working in a high school math classroom setting.
         I have challenged myself to learn and become well-versed in multiple curricula and have taught almost every high school math course offered by most schools.
         I am interested in and consider myself to be proficient in "all things tech".

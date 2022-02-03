@@ -7,7 +7,9 @@ function Work(props) {
   return (
     <section className="mt-3">
       <h5><u>Experience</u></h5>
-      {jobs}
+
+        {jobs}
+
       <hr/>
     </section>
   );
@@ -28,7 +30,7 @@ function Job(j, i) {
       </h6>
       <div className="text-muted"><a href={j.link}>{j.org}, {j.where}</a></div>
       <div className="row mb-2">
-        <div className="col-12 col-md-10">{j.desc}</div>
+        <div className="col-12 col-md-10 mb-2">{j.desc}</div>
       </div>
     </div>
   )
