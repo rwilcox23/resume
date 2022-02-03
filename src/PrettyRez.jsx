@@ -22,6 +22,9 @@ function Rez() {
   return (
     <div className="Rez container m-3 p-3">
       <div className="row">
+
+
+
         <div className="MainLeftCol col-12 col-md-8">
           <Header />
           <Experience />
@@ -34,6 +37,8 @@ function Rez() {
           <Skills />
         </div>
 
+
+
       </div>
     </div>
   );
@@ -43,9 +48,10 @@ function Rez() {
 // note that there is custom css for .PortfolioHeader h5 in index.css
 function Header(props) {
   return (
-    <header className="PortfolioHeader">
+    <header className="PortfolioHeader mb-4">
       <h5>Robert J. Wilcox</h5>
       <Bio />
+      <hr/>
     </header>
   );
 }

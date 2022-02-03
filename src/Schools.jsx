@@ -7,7 +7,7 @@ function Education(props) {
 
   return (
     <section className="mt-3">
-      <h5>Education</h5>
+      <h5><u>Education</u></h5>
       {schools}
     </section>
   );

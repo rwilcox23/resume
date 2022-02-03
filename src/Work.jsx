@@ -6,8 +6,9 @@ function Work(props) {
 
   return (
     <section className="mt-3">
-      <h5>Experience</h5>
+      <h5><u>Experience</u></h5>
       {jobs}
+      <hr/>
     </section>
   );
 }

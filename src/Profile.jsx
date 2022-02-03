@@ -17,7 +17,7 @@ function Contact(props) {
 function ProfileImg(props) {
 
   return (
-    <img className="mx-auto d-md-block d-sm-none mb-3 img-fluid" src={profileImg}
+    <img className="mx-auto d-md-block d-sm-none mb-3 img-fluid rounded" src={profileImg}
       alt="headshot of Rob" />
   )
 
@@ -27,7 +27,7 @@ function ProfileImg(props) {
 function Bio(props) {
   return (
     <section className="Bio">
-      <p className="text-justify mb-3">
+      <p className="text-justify mb-4">
         I have 13 years of experience working in a high school math classroom setting.
         I have challenged myself to learn and become well-versed in multiple curricula and have taught almost every high school math course offered by most schools.
         I am interested in and consider myself to be proficient in "all things tech".
