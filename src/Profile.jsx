@@ -3,12 +3,12 @@ import profileImg from "./res/robertwilcox.jpeg";
 
 function Contact(props) {
   return (
-    <section className="text-center mb-2 semiTrans p-3 rounded">
+    <section className="mb-2 semiTrans text-center p-3 rounded">
       <div>
-        <a href="https://robertwilcox.com"
+        <a href="https://robertwilcox.com" className ="contactLink"
           title="go to Rob's site">https://robertwilcox.com</a>
       </div>
-      <div><a href="mailto:robertwilcox@mail.adelphi.edu">robertwilcox@mail.adelphi.edu</a></div>
+      <div><a href="mailto:robertwilcox@mail.adelphi.edu" className ="contactLink">robertwilcox@mail.adelphi.edu</a></div>
     </section>
   )
 }
@@ -17,8 +17,9 @@ function Contact(props) {
 function ProfileImg(props) {
 
   return (
-    <img className="mx-auto d-md-block d-sm-none mb-3 img-fluid rounded" src={profileImg}
-      alt="headshot of Rob" />
+
+    <img className=" rounded-circle img-fluid mt-2 d-md-block d-none" src={profileImg}
+        alt="headshot of Rob" />
   )
 
 }

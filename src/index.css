@@ -2,4 +2,22 @@
 
 .PortfolioHeader h5 {
   font-size: 64px;
+  background-color: #dbdbdb;
+
+}
+
+.Bio{
+  background-color: #dbdbdb;
+
+}
+
+h5 {
+  background-color: #dbdbdb;
+
+}
+
+.contactLink{
+
+  font-size: 1em;
+
 }

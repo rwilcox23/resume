@@ -16,6 +16,7 @@ import React from 'react';
 import Experience from "./Work.jsx";
 import Education from "./Schools.jsx";
 import Skills from "./Skills.jsx";
+import Cert from "./Cert.jsx";
 import {Bio, Contact, ProfileImg} from "./Profile.jsx";
 
 function Rez() {
@@ -23,19 +24,23 @@ function Rez() {
     <div className="Rez container m-3 p-3">
       <div className="row">
 
-
-
-        <div className="MainLeftCol col-12 col-md-8">
-          <Header />
-          <Experience />
-          <Education />
-        </div>
-
-        <div className="MainSideCol col-md-4 flex-column">
+        <div className="MainSideCol col-md-4 flex-column bg-light">
           <ProfileImg />
           <Contact />
-          <Skills />
+
         </div>
+
+        <div className="MainLeftCol col-12 col-md-8 ">
+        <Header />
+        <Experience />
+        <Education />
+        <Cert />
+        <Skills />
+      </div>
+
+
+
+
 
 
 
@@ -48,10 +53,11 @@ function Rez() {
 // note that there is custom css for .PortfolioHeader h5 in index.css
 function Header(props) {
   return (
-    <header className="PortfolioHeader mb-4">
-      <h5>Robert J. Wilcox</h5>
+    <header className="PortfolioHeader mb-4 ">
+      <h5 className="mb-0">Robert J. Wilcox</h5>
       <Bio />
       <hr/>
+
     </header>
   );
 }

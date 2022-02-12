@@ -9,7 +9,9 @@ function Education(props) {
     <section className="mt-3">
       <h5><u>Education</u></h5>
       {schools}
+      <hr/>
     </section>
+
   );
 }
 
