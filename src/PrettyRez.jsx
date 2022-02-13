@@ -17,6 +17,7 @@ import Experience from "./Work.jsx";
 import Education from "./Schools.jsx";
 import Skills from "./Skills.jsx";
 import Cert from "./Cert.jsx";
+import Interests from "./Interests.jsx";
 import {Bio, Contact, ProfileImg} from "./Profile.jsx";
 
 function Rez() {
@@ -24,7 +25,7 @@ function Rez() {
     <div className="Rez container m-3 p-3">
       <div className="row">
 
-        <div className="MainSideCol col-md-4 flex-column bg-light">
+        <div className="MainSideCol rounded col-md-4 ">
           <ProfileImg />
           <Contact />
 
@@ -36,6 +37,7 @@ function Rez() {
         <Education />
         <Cert />
         <Skills />
+        <Interests />
       </div>
 
 
@@ -53,8 +55,8 @@ function Rez() {
 // note that there is custom css for .PortfolioHeader h5 in index.css
 function Header(props) {
   return (
-    <header className="PortfolioHeader mb-4 ">
-      <h5 className="mb-0">Robert J. Wilcox</h5>
+    <header className="PortfolioHeader mb-4">
+      <h5 className="header mb-0 rounded-top">Robert J. Wilcox</h5>
       <Bio />
       <hr/>
 

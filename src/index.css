@@ -2,22 +2,32 @@
 
 .PortfolioHeader h5 {
   font-size: 64px;
-  background-color: #dbdbdb;
+  background-color: #248fe0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  text-indent: 3px;
+  color: white;
 
 }
 
 .Bio{
-  background-color: #dbdbdb;
+  background-color: #248fe0;
+  color: white;
 
 }
 
-h5 {
-  background-color: #dbdbdb;
+h5:not(h5.header) {
+  background-color: #248fe0;
+  border-radius: 3px;
+  text-indent: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  color: white;
+
 
 }
 
-.contactLink{
-
-  font-size: 1em;
-
+.MainSideCol{
+  background-color: #dbdbdb;
 }

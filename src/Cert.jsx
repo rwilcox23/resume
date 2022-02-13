@@ -6,11 +6,11 @@ function Cert(props) {
 
   return (
     <section className="mt-3">
-      <h5><u>Certifications</u></h5>
+      <h5>Certifications</h5>
 
         {certs}
 
-      <hr/>
+
     </section>
   );
 }
