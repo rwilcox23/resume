@@ -48,11 +48,16 @@ function Experience(props) {
     }
 
     return (
-      <div key={i}>
-        <h5>{j.title} {j.start}-{end}</h5>
-        <a href={j.link}>{j.org}, {j.where}</a>
-        <p>{j.desc}</p>
-      </div>
+      <ul>
+        <li>
+        <div key={i}>
+          <h6>{j.title} {j.start}-{end}</h6>
+          <a href={j.link}>{j.org}, {j.where}</a>
+          <p class="text-muted">{j.desc}</p>
+        </div>
+        </li>
+      </ul>
+
     )
   }
 
@@ -61,7 +66,7 @@ function Experience(props) {
 
   return (
     <section>
-      <h2>Experience</h2>
+      <h5>Experience</h5>
       {jobs}
     </section>
   );
@@ -71,7 +76,7 @@ function Experience(props) {
 function Education(props) {
   return (
     <section>
-      <h2>Education</h2>
+      <h5>Education</h5>
       <ul>
         <li><b>MA:</b> Educational Technology. Adelphi University.</li>
         <li><b>BA:</b> Mathematics. St. Josephs College.</li>
@@ -83,13 +88,13 @@ function Education(props) {
 function Skills(props) {
   return (
     <section>
-      <h2>Skills</h2>
+      <h5>Skills</h5>
       <ul>
-        <li>Javascript</li>
         <li>Python</li>
-        <li>Java</li>
+        <li>Google Suite</li>
+        <li>Microsoft Suite</li>
         <li>English</li>
-        <li>Spanish</li>
+        <li>Texas Instruments Calculator Software</li>
       </ul>
     </section>
   )

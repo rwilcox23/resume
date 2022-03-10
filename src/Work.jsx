@@ -24,6 +24,8 @@ function Job(j, i) {
   }
 
   return (
+    <ul>
+      <li>
     <div key={i}>
       <h6 className="d-flex justify-content-between mb-0">
         {j.title} <div className="text-muted">{j.start} - {end}</div>
@@ -33,6 +35,8 @@ function Job(j, i) {
         <div className="col-12 col-md-10 mb-2">{j.desc}</div>
       </div>
     </div>
+    </li>
+  </ul>
   )
 }
 export default Work;

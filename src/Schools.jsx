@@ -19,6 +19,8 @@ function Education(props) {
 function School(s, i) {
 
   return (
+    <ul>
+      <li>
     <div key={i}>
       <h6 className="d-flex justify-content-between mb-0">
         {s.school} <div className="text-muted">{s.year}</div>
@@ -26,9 +28,11 @@ function School(s, i) {
       <div className="text-muted">{s.location}</div>
       <div className="row mb-2">
         <div className="col-12 col-md-10">{s.degree}</div>
-        
+
       </div>
     </div>
+    </li>
+    </ul>
   )
 }
 

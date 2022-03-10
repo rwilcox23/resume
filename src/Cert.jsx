@@ -20,6 +20,7 @@ function Certification(c, i) {
 
 
   return (
+    <ul><li>
     <div key={i}>
       <h6 className="d-flex justify-content-between mb-0">
         {c.certification} <div className="text-muted">{c.year}</div>
@@ -29,6 +30,7 @@ function Certification(c, i) {
         <div className="col-12 col-md-10 mb-2">{c.desc}</div>
       </div>
     </div>
+    </li></ul>
   )
 }
 export default Cert;
